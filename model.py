@@ -178,11 +178,3 @@ class Prediction():
             
 pred = Prediction()
 pred.predict(os.listdir('C:/Users/BABI/Image Colorization/test'))
-
-
-import matplotlib.image as mpimg
-original = mpimg.imread('C:/Users/BABI/Image Colorization/pred/pexels-photo-3460478.jpeg')
-fig, (ax1, ax2) = plt.subplots(1, 2)
-ax1.imshow(resize(original,(256,256)))
-prediction = mpimg.imread('C:/Users/BABI/Image Colorization/predict.png')
-ax2.imshow(prediction)
