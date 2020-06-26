@@ -1,1 +1,1 @@
-# Face-Colorization
+# Image-Colorization
